@@ -1,12 +1,7 @@
-.idea/
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
-src /*
-.gitignore
-.pom.xml
-
 
 ### IntelliJ IDEA ###
 .idea/modules.xml
