@@ -22,7 +22,6 @@ public class Task2 {
                 waitOrCatch();
             }
         }
-
     }
 
     public synchronized  void fizz(){
