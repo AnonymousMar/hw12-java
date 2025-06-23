@@ -1,12 +1,16 @@
 package org.example;
 
-import task1.Task1;
-import task2.Task2;
+import org.example.task1.Task1;
+import org.example.task2.Task2;
 
 public class Main {
     public static void main(String[] args) {
-        Task2 task2 = new Task2();
-        task2.run();
+        Task2 task2 = new Task2(16);
+        try {
+            task2.run();
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
         Thread thread = new Thread( new Task1());
         thread.start();
 

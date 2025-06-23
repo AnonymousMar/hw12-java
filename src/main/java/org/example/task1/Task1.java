@@ -1,7 +1,8 @@
-package task1;
+package org.example.task1;
 
 public class Task1  implements  Runnable {
     @Override
+
     public void run() {
         for (int i = 1; ; i++) {
             System.out.println(i + " seconds have passed");
